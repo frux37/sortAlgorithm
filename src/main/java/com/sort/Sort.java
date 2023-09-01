@@ -20,7 +20,7 @@ public class Sort {
     }
 
     /**
-     *
+     * Algoritmo de ordenação bolha. Algorítmo padrão.
      */
     public void bubbleSort() {
         int n = array.length;
@@ -73,7 +73,7 @@ public class Sort {
     }
 
     /**
-     *
+     * Algoritmo merge. Um dos mais rápidos algoritmos que existe.
      * @param left
      * @param right
      */
