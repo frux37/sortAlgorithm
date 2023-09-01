@@ -53,7 +53,7 @@ public class Main {
                 System.out.println("Opção inválida");
         }
 
-        System.out.println("Array ordenado:");
+        System.out.println("Busco sexo:");
         sorter.printArray();
 
         scanner.close();
