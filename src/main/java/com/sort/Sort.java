@@ -11,10 +11,17 @@ package com.sort;
 public class Sort {
     private int[] array;
 
+    /**
+     *
+     * @param array
+     */
     public Sort(int[] array) {
         this.array = array;
     }
 
+    /**
+     *
+     */
     public void bubbleSort() {
         int n = array.length;
         boolean swapped;
@@ -31,6 +38,9 @@ public class Sort {
         } while (swapped);
     }
 
+    /**
+     *
+     */
     public void selectionSort() {
         int n = array.length;
         for (int i = 0; i < n - 1; i++) {
@@ -46,6 +56,9 @@ public class Sort {
         }
     }
 
+    /**
+     *
+     */
     public void insertionSort() {
         int n = array.length;
         for (int i = 1; i < n; i++) {
@@ -59,6 +72,11 @@ public class Sort {
         }
     }
 
+    /**
+     *
+     * @param left
+     * @param right
+     */
     public void mergeSort(int left, int right) {
         if (left < right) {
             int middle = (left + right) / 2;
@@ -107,6 +125,11 @@ public class Sort {
         }
     }
 
+    /**
+     *
+     * @param low
+     * @param high
+     */
     public void quickSort(int low, int high) {
         if (low < high) {
             int pivotIndex = partition(low, high);
@@ -135,6 +158,9 @@ public class Sort {
         return i + 1;
     }
 
+    /**
+     *
+     */
     public void printArray() {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");

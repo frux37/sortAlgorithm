@@ -10,7 +10,16 @@ package com.sort;
  */
 import java.util.Scanner;
 
+/**
+ *
+ * @author 20212pf.cc0012
+ */
 public class Main {
+
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o tamanho do array: ");
