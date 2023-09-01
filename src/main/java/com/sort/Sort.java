@@ -5,15 +5,15 @@
 package com.sort;
 
 /**
- *
+ *asdasdasdasd
  * @author 20212pf.cc0012
  */
 public class Sort {
     private int[] array;
 
     /**
-     *
-     * @param array
+     *asdasdasdasd
+     * @param array asdasd
      */
     public Sort(int[] array) {
         this.array = array;
@@ -39,7 +39,7 @@ public class Sort {
     }
 
     /**
-     *
+     *asdasasdasd
      */
     public void selectionSort() {
         int n = array.length;
@@ -57,7 +57,7 @@ public class Sort {
     }
 
     /**
-     *
+     *asdasdasdad
      */
     public void insertionSort() {
         int n = array.length;
@@ -74,8 +74,8 @@ public class Sort {
 
     /**
      * Algoritmo merge. Um dos mais rápidos algoritmos que existe.
-     * @param left
-     * @param right
+     * @param left asdasd
+     * @param right asdasd
      */
     public void mergeSort(int left, int right) {
         if (left < right) {
@@ -126,9 +126,9 @@ public class Sort {
     }
 
     /**
-     *
-     * @param low
-     * @param high
+     *asdasdadsadadsad
+     * @param low asdad
+     * @param high asdasd
      */
     public void quickSort(int low, int high) {
         if (low < high) {
@@ -159,7 +159,7 @@ public class Sort {
     }
 
     /**
-     *
+     *asdasdadasdadasdadasd
      */
     public void printArray() {
         for (int i = 0; i < array.length; i++) {
