@@ -1,24 +1,28 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+/**
+ * A classe Main contém o método principal para interagir com o usuário e chamar
+ * os métodos de ordenação da classe Sort.
  */
 package com.sort;
 
-/**
- *
- * @author 20212pf.cc0012
- */
 import java.util.Scanner;
-
 /**
- *
+ * asdadadadadadadsadadad
  * @author 20212pf.cc0012
  */
 public class Main {
+    /**
+     * Construtor padrão da classe Main.
+     */
+    public Main() {
+        // Este é o construtor padrão, não recebe parâmetros.
+        // Você pode adicionar um comentário aqui para descrever seu propósito, mesmo que seja vazio.
+    }
 
     /**
+     * O método principal (main) permite ao usuário escolher um algoritmo de ordenação e
+     * interage com o usuário para obter entrada de dados.
      *
-     * @param args
+     * @param args Os argumentos da linha de comando (não usados neste exemplo).
      */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -62,7 +66,7 @@ public class Main {
                 System.out.println("Opção inválida");
         }
 
-        System.out.println("Busco sexo:");
+        System.out.println("Array ordenado:");
         sorter.printArray();
 
         scanner.close();
